@@ -28,7 +28,7 @@ class DiceGame {
 
         //Calling two argument constructor
         arrDie[2] = new Die("d", 55);
-        arrDie[2].roll();                                  
+        arrDie[2].roll();
         System.out.println("Creating percentile arrDie (a special " + arrDie[2].getType() + arrDie[2].getNumberOfSides() + ")...");
 
         //Displaying which side is currently up for each die. (Before)
@@ -36,12 +36,12 @@ class DiceGame {
         System.out.println("The current side up for " + arrDie[1].getType() + " is " + arrDie[1].getCurSideUp());
         System.out.println("The current side up for Percentile is " + arrDie[2].getCurSideUp());
 
-        //Testing the rol method.
+        //Testing the roll method.
         System.out.println("");                                  //Adding  blank line to avoid untidy output
         System.out.println("Testing the roll method");
         System.out.println("");                                  //Adding  blank line to avoid untidy output
 
-        ////Displaying which side is currently up for each die. (After)
+        //Displaying which side is currently up for each die. (After)
         System.out.println("Rolling the " + arrDie[0].getType() + "...");
         arrDie[0].roll();
         System.out.println("The new value is " + arrDie[0].getCurSideUp());
